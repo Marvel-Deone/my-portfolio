@@ -67,17 +67,16 @@ const Home = () => {
               <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="" className="relative transition duration-300 font-[500] links-before">About Me</a></li>
               <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="" className="relative transition duration-300 font-[500] links-before">Projects</a></li>
               <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="" className="relative transition duration-300 font-[500] links-before">Services</a></li>
-              <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="" className="relative transition duration-300 font-[500] links-before">Services</a></li>
             </ul>
 
-            <div className='flex items-center' data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+            <div className='flex items-center' data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
               <button className="hidden lg:flex bg-blue-500 px-[30px] py-[13px] rounded-full border-[2px] border-blue-500 hover:bg-black hover:border-white transition-all duration-[.35s] ease-linear">
                 Let's Talk
               </button>
             </div>
           </div>
           {/* Menu Icon */}
-          {!open ? <div className="lg:hidden bg-transparent border border-[#373d45] py-2 px-4 rounded-md cursor-pointer absolute right-[15px] top-[19px]" onClick={() => setOpen(true)}>
+          {!open ? <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" className="lg:hidden bg-transparent border border-[#373d45] py-2 px-4 rounded-md cursor-pointer absolute right-[15px] top-[19px]" onClick={() => setOpen(true)}>
             <i className="fa-solid fa-bars text-[20px]"></i>
           </div> : <div className="lg:hidden bg-transparent border border-[#373d45] py-2 px-4 rounded-md cursor-pointer absolute right-[15px] top-[19px]" onClick={() => setOpen(false)}>
             <i className=" fa-solid fa-xmark text-[20px] mt-1"></i>
