@@ -104,9 +104,7 @@ body {
 }
 
 .backdrop-boxShadow {
-  backdrop-filter: blur(4px) brightness(40%);
-  box-shadow: 0 0 20px black;
-  transition: 0.2s linear;
+  transition: 0.4s linear;
 }
 
 .box-shadow {
@@ -128,5 +126,15 @@ body {
 
   100% {
     scale: 1;
+  }
+}
+
+.blink {
+  animation: blink 1.2s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+      opacity: 0;
   }
 }
