@@ -88,6 +88,10 @@ body {
   transition-timing-function: ease-in !important;
 }
 
+.my-ease {
+  transition-timing-function: ease !important;
+}
+
 .expand {
   animation: cursorAnim3 .5s forwards;
   border: 1px solid rgb(91, 91, 165);
@@ -99,8 +103,9 @@ body {
 }
 
 .social-icon:hover {
-  transition: all .3s ease;
-  transform: translateY(-5%);
+  /* background-color: yellow !important; */
+  transition: all .3s ease !important;
+  transform: translateY(-5%) !important;
 }
 
 .backdrop-boxShadow {
@@ -136,5 +141,35 @@ body {
 @keyframes blink {
   50% {
       opacity: 0;
+  }
+}
+
+.roll-spin {
+  animation: rolling-spin .5s ease infinite;
+}
+
+.rotating-object {
+  animation: rotateInfinite 40s linear infinite;
+}
+
+@keyframes rotateInfinite {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-object-2 {
+  animation: rotateInfinite-2 40s linear infinite;
+}
+
+@keyframes rotateInfinite-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
