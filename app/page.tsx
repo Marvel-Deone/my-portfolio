@@ -57,7 +57,7 @@ const Home = () => {
     <main className='content w-full min-h-screen text-white flex flex-col xl:p-0'>
       {/* Desktop Navbar */}
       <header className="my-nav w-full fixed top-0 left-0 z-[1000] transition-all duration-[.6s]">
-        <nav className="bg-transparent z-[1000] mx-auto max-w-[82rem] flex justify-between py-5 items-center top-0 left-0 w-full transition duration-[.6s] px-[1.5rem] md:px-[1rem] lg:px-[3rem] xl:px-[4rem] 2xl:px-0">
+        <nav className="bg-transparent z-[1000] mx-auto max-w-[82rem] flex justify-between py-5 items-center top-0 left-0 w-full transition duration-[.6s] px-[.85rem] md:px-[1rem] lg:px-[3rem] xl:px-[4rem] 2xl:px-0">
           <div className="text-[1.6rem] md:text-[2rem] xl:text-[2.5rem] font-bold tracking-wide cursor-pointer" data-aos="zoom-in" data-aos-duration="1500">
             <span className="text-blue-400">F</span>OLAGBADE
           </div>
@@ -96,8 +96,8 @@ const Home = () => {
 
       {/* Hero Section */}
       <section>
-        <div className='w-full h-full lg:max-w-[82rem] flex flex-col mx-auto mb-2 px-[1.5rem] md:px-[2.1rem] lg:px-[3rem] 2xl:px-0'>
-          <div className='flex flex-col lg:flex-row xl:gap-[3.8rem] mt-40 xl:mt-12'>
+        <div className='w-full h-full lg:max-w-[82rem] flex flex-col mx-auto mb-2 px-[.85rem] md:px-[2.1rem] lg:px-[3rem] 2xl:px-0'>
+          <div className='flex flex-col lg:flex-row xl:gap-[3.8rem] mt-16 lg:mt-36 xl:mt-[3.8rem]'>
             {/* Text Content */}
             <div className='flex flex-col lg:items-start 2xl:space-y-6 tracking-wide transform mt-[4rem] xl:mt-[10rem] 2xl:mt-[11rem]'>
               <span className="mb-1 lg:mb-0 inline whitespace-nowrap text-white w-auto px-[12px] py-[5px] rounded-[4px] uppercase tracking-widest text-[16px] bg-[#063560]" style={{
@@ -109,7 +109,7 @@ const Home = () => {
                 </h1>
                 <div className="mb-4 2xl:mb-0 mt-[-1rem] xl:mt-[-1.5rem] typewriter text-[38px] md:text-[45px] xl:text-[65px] text-[#0788FF] uppercase font-semibold" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1200">I'm a <span className="typewriter-text">{displayedText}</span>{showCursor && <label htmlFor="" className='blink'>|</label>}</div>
               </div>
-              <p className="text-white text-[18px] font-[500] lg:w-[30rem] xl:w-[37rem] leading-7" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1400">
+              <p className="text-white text-[16px] md:text-[18px] font-[500] lg:w-[30rem] xl:w-[37rem] leading-7" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1400">
                 Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment.
               </p>
               <div className="mt-8 lg:mt-4 flex flex-col md:flex-row gap-6 items-center" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1600">
@@ -136,8 +136,8 @@ const Home = () => {
               </div>
             </div>
             {/* Image */}
-            <div className="pr-7 md:px-0 mt-[3rem] 2xl:mt-[4rem]" data-aos="zoom-out" data-aos-duration="3000" data-aos-delay="1800">
-              <div className="md:w-[590px] md:h-[580px] lg:w-[400px] lg:h-[400px] xl:w-[470px] xl:h-[470px] 2xl:w-[590px] 2xl:h-[575px] image-container mt-32 md:mt-44 lg:mt-5 xl:mt-12 ml-8 rounded-full overflow-hidden box-shadow ">
+            <div className="pr-7 md:px-0 xl:mt-[3rem] 2xl:mt-[4rem]" data-aos="zoom-out" data-aos-duration="3000" data-aos-delay="1800">
+              <div className="md:w-[590px] md:h-[580px] lg:w-[400px] lg:h-[400px] xl:w-[470px] xl:h-[470px] 2xl:w-[590px] 2xl:h-[575px] image-container mt-16 lg:mt-0 xl:mt-12 ml-8 rounded-full overflow-hidden box-shadow ">
                 <Image
                   src="/images/my-profile.png"
                   alt="Folagbade Olowofela"
@@ -151,7 +151,7 @@ const Home = () => {
         </div>
       </section>
       {/* Brand Section */}
-      <section data-aos="fade-up" data-aos-duration="1500" data-aos-delay="2000" className='bg-gradient-to-r from-[#052442] from-40% to-[#051a2f] w-full flex flex-col mx-auto mt-20 px-[1.5rem] md:px-[2.1rem] lg:px-[3rem] 2xl:px-0'>
+      <section data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1900" className='bg-gradient-to-r from-[#052442] from-40% to-[#051a2f] w-full flex flex-col mx-auto mt-12 md:mt-14 lg:mt-[4.5rem] px-[1.5rem] md:px-[2.1rem] lg:px-[3rem] 2xl:px-0'>
         <div className="w-full lg:max-w-[82rem] flex mx-auto justify-between py-6">
           <Image src="/images/brand-1.svg" alt='Hello' width={270} height={400} className='w-[180px] md:w-[270px]' />
           <Image src="/images/brand-2.svg" alt='Hello' width={270} height={400} className='w-[180px] md:w-[270px]' />
