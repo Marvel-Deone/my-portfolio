@@ -29,6 +29,7 @@ body {
   font-style: normal;
   height: 100vh;
   display: grid;
+  overflow-x: hidden !important;
   /* place-items: center; */
 }
 
@@ -155,10 +156,13 @@ body {
 
 @keyframes rotateInfinite {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1); /* Shrinks */
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(1); /* Returns to normal */
   }
 }
 
@@ -169,9 +173,12 @@ body {
 
 @keyframes rotateInfinite-2 {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(0.8); /* Shrinks */
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(0.9); /* Returns to normal */
   }
 }
