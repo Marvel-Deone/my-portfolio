@@ -148,8 +148,9 @@ body {
   animation: rolling-spin .5s ease infinite;
 }
 
-.rotating-object {
+.rotating-object-1 {
   animation: rotateInfinite 40s linear infinite;
+  transform-origin: 50% 50% !important;
 }
 
 @keyframes rotateInfinite {
@@ -163,6 +164,7 @@ body {
 
 .rotating-object-2 {
   animation: rotateInfinite-2 40s linear infinite;
+  /* transform-origin: 50% 50%; */
 }
 
 @keyframes rotateInfinite-2 {

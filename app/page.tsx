@@ -151,15 +151,50 @@ const Home = () => {
         </div>
       </section>
       {/* Brand Section */}
-      <section data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1900" className='bg-gradient-to-r from-[#052442] from-40% to-[#051a2f] w-full flex flex-col mx-auto mt-12 md:mt-14 lg:mt-[4.5rem] px-[1.5rem] md:px-[2.1rem] lg:px-[3rem] 2xl:px-0'>
+      <section data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600" className='bg-gradient-to-r from-[#052442] from-40% to-[#051a2f] w-full flex flex-col mx-auto mt-12 md:mt-14 lg:mt-[4.5rem] px-[1.5rem] md:px-[2.1rem] lg:px-[3rem] 2xl:px-0'>
         <div className="w-full lg:max-w-[82rem] flex mx-auto justify-between py-6">
-          <Image src="/images/brand-1.svg" alt='Hello' width={270} height={400} className='w-[180px] md:w-[270px]' />
-          <Image src="/images/brand-2.svg" alt='Hello' width={270} height={400} className='w-[180px] md:w-[270px]' />
-          <Image src="/images/brand-3.svg" alt='Hello' width={300} height={400} className='hidden md:flex' />
+          <Image src="/images/brand-1.svg" alt='Hello' width={270} height={400} className='w-[180px] md:w-[270px] xl:h-[57px]' />
+          <Image src="/images/brand-2.svg" alt='Hello' width={270} height={400} className='w-[180px] md:w-[270px] xl:h-[55px]' />
+          <Image src="/images/brand-3.svg" alt='Hello' width={300} height={400} className='hidden md:flex xl:h-[57px]' />
         </div>
       </section>
       {/* About Section */}
-
+      <section className='relative'>
+        <div className='relative w-full lg:max-w-[82rem] flex flex-col mx-auto px-[.85ren] md:px-[2.1rem] lg:px-[3rem] 2xl:px-0 z-[1]'>
+          <div className="hidden lg:flex rotating-object-1 absolute bottom-[60px] left-0 z-[-1] pl-16 2xl:pl-16">
+            <Image src="/images/effect-1.svg" alt='effect-1' data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="400" width={339} height={339} />
+          </div>
+          <div className="hidden lg:flex rotating-object-2 absolute right-[30px] xl:right-[-60px] top-[80px] z-[-1]">
+            <Image src="/images/effect-2.svg" alt='effect-1' data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="400" width={151} height={151} />
+          </div>
+          <div className='w-full flex flex-col lg:flex-row gap-12 lg:items-center lg:justify-center px-3 md:px-0 py-[5rem] lg:py-[6rem]'>
+            {/* About Banner */}
+            <div data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500" className='w-full lg:w-1/2 2xl:pl-32'>
+              <div className='flex items-center justify-center'>
+                <Image src="/images/about-banner.png" alt='about-banner' width={526} height={640} />
+              </div>
+            </div>
+            {/* About Text */}
+            <div data-aos="fade" data-aos-duration="1200" data-aos-delay="400" className="w-full lg:w-1/2 lg:px-12">
+              <div className='flex flex-col lg:gap-4'>
+                <span className="mb-2 lg:mb-0 inline whitespace-nowrap text-white w-auto px-[12px] py-[4px] rounded-[4px] uppercase tracking-[0.3rem] text-[16px] bg-[#063560]" style={{
+                  inlineSize: "fit-content"
+                }}>ABOUT ME</span>
+                <h1 className="mb-6 lg:mb-0 text-[35px] md:text-[40px] font-bold uppercase leading-[2.8rem] md:leading-[3rem]">
+                  I AM AVAILABLE FOR <span className="text-[#0788FF]">WEB & MOBILE</span> DEVELOPMENTS
+                </h1>
+                <p className='mb-7 text-[16px] text-[#ffffff]'>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                <div>
+                  <button className="text-center justify-center md:text-start uppercase flex md:justify-between items-center bg-blue-500 text-[white] font-[500] px-[28px] py-[14px] rounded-full border-[2px] border-blue-500 hover:bg-black hover:border-white transition-all duration-[.35s] ease-linear">
+                    <span>Get in Touch</span>
+                    <i className="flex ml-3"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" className="iconify iconify--bi" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path></svg></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 };
