@@ -67,10 +67,6 @@ body {
   transition: all .8s ease-out;
 }
 
-.content {
-  background-color: black !important;
-}
-
 .content:hover ~ .cursor-inner {
   /* background: rgb(192, 151, 151); */
   background: rgb(174, 160, 160);
