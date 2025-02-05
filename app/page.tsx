@@ -1,5 +1,6 @@
 'use client'
 
+import MyWork from '@/components/MyWork';
 import Image from 'next/image'
 import { useEffect, useState } from 'react';
 
@@ -175,7 +176,7 @@ const Home = () => {
               </div>
             </div>
             {/* About Text */}
-            <div data-aos="fade" data-aos-duration="1200" data-aos-delay="400" className="w-full lg:w-1/2 lg:px-12">
+            <div data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="400" className="w-full lg:w-1/2 lg:px-12">
               <div className='flex flex-col lg:gap-4'>
                 <span className="mb-2 lg:mb-0 inline whitespace-nowrap text-white w-auto px-[12px] py-[4px] rounded-[4px] uppercase tracking-[0.3rem] text-[16px] bg-[#063560]" style={{
                   inlineSize: "fit-content"
@@ -183,7 +184,7 @@ const Home = () => {
                 <h1 className="mb-6 lg:mb-0 text-[35px] md:text-[40px] font-bold uppercase leading-[2.8rem] md:leading-[3rem]">
                   I AM AVAILABLE FOR <span className="text-[#0788FF]">WEB & MOBILE</span> DEVELOPMENTS
                 </h1>
-                <p className='mb-7 text-[16px] text-[#ffffff]'>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                <p className='mb-7 text-[16px] text-[#ffffff]'>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bononrum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
                 <div>
                   <button className="text-center justify-center md:text-start uppercase flex md:justify-between items-center bg-blue-500 text-[white] font-[500] px-[28px] py-[14px] rounded-full border-[2px] border-blue-500 hover:bg-black hover:border-white transition-all duration-[.35s] ease-linear">
                     <span>Get in Touch</span>
@@ -195,6 +196,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* My Work */}
+      <MyWork />
     </main>
   );
 };
