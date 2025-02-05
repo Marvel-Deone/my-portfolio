@@ -55,15 +55,20 @@ body {
   left: 0;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  z-index: 9999;
+  z-index: 9999 !important;
   pointer-events: none;
 }
 
 .cursor-inner {
+  z-index: 2000 !important;
   width: 12px;
   height: 12px;
   background: rgb(174, 160, 160);
   transition: all .8s ease-out;
+}
+
+.content {
+  background-color: black !important;
 }
 
 .content:hover ~ .cursor-inner {

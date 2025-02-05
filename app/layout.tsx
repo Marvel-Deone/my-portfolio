@@ -42,8 +42,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-r from-[#041c32] from-40% to-[#050c16]`}
       >
-        {children}
+        {/* <div className="content"> */}
+          {children}
         <div className="cursor-inner"></div>
+        {/* </div> */}
 
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>

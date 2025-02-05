@@ -1,5 +1,6 @@
 'use client'
 
+import MyWork from '@/components/MyWork';
 import Image from 'next/image'
 import { useEffect, useState } from 'react';
 
@@ -196,18 +197,7 @@ const Home = () => {
         </div>
       </section>
       {/* My Work */}
-      <section className='bg-gradient-to-r from-[#062d4d] from-50% to-[#051a2f] w-full flex flex-col mx-auto py-[6rem]'>
-        <div className='w-full lg:max-w-[82rem] flex mx-auto'>
-          <div className='flex flex-col lg:gap-4'>
-            <span className="font-[500] mb-2 lg:mb-0 inline whitespace-nowrap text-white w-auto px-[12px] py-[4px] rounded-[4px] uppercase tracking-[0.3rem] text-[16px] bg-[#063560]" style={{
-              inlineSize: "fit-content"
-            }}>MY WORK</span>
-             <h1 className="mb-6 lg:mb-0 text-[35px] md:text-[40px] font-bold uppercase leading-[2.8rem] md:leading-[3rem]">
-                  RECENT PROJECTS
-                </h1>
-          </div>
-        </div>
-      </section>
+      <MyWork />
     </main>
   );
 };
