@@ -1,5 +1,7 @@
 'use client'
 
+import Experience from '@/components/Experience';
+import MyServices from '@/components/MyServices';
 import MyWork from '@/components/MyWork';
 import Image from 'next/image'
 import { useEffect, useState } from 'react';
@@ -55,7 +57,7 @@ const Home = () => {
   }, [displayedText, isErasing, characterIndex, textIndex, texts]);
 
   return (
-    <main className='content w-full min-h-screen text-white flex flex-col xl:p-0'>
+    <main className='content w-full min-h-screen h-auto text-white flex flex-col flex-grow xl:p-0'>
       {/* Desktop Navbar */}
       <header className="my-nav w-full fixed top-0 left-0 z-[1000] transition-all duration-[.6s]">
         <nav className="bg-transparent z-[1000] mx-auto max-w-[82rem] flex justify-between py-5 items-center top-0 left-0 w-full transition duration-[.6s] px-[.85rem] md:px-[1rem] lg:px-[4rem] xl:px-[4rem] 2xl:px-0">
@@ -198,6 +200,8 @@ const Home = () => {
       </section>
       {/* My Work */}
       <MyWork />
+      <MyServices />
+      <Experience />
     </main>
   );
 };
