@@ -27,10 +27,10 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  height: 100vh;
+  min-height: 100%;
+  height: auto;
   display: grid;
   overflow-x: hidden !important;
-  /* place-items: center; */
 }
 
 @layer utilities {
@@ -64,7 +64,9 @@ body {
   width: 12px;
   height: 12px;
   background: rgb(174, 160, 160);
+  /* transform: "translate(-50%, -50%)"; */
   transition: all .8s ease-out;
+  position: absolute;
 }
 
 .content:hover ~ .cursor-inner {
@@ -182,4 +184,13 @@ body {
   100% {
     transform: rotate(360deg) scale(0.9); /* Returns to normal */
   }
+}
+
+.experience-bg {
+background-color: #05294a;
+  /* background: linear(90deg, rgb( 7, 136, 255) 1.67%, rgb(4, 29, 52) 39.95%, rgb(4, 25, 45) 58.24%, rgb(4, 14, 24) 80.28%, rgb(5, 12, 22) 101.48%); */
+}
+
+.bg-experiences {
+  background-color: rgba(7, 136, 255, .1);
 }

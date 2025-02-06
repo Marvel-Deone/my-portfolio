@@ -6,11 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    document.addEventListener("mousemove", e => {
-        cursor.style.top = `${e.pageY}px`;
-        cursor.style.left = `${e.pageX}px`;
-    });
-
     document.addEventListener("click", () => {
         cursor.classList.add("expand");
         setTimeout(() => {
