@@ -29,8 +29,8 @@ const Experience = () => {
     ];
 
     return (
-        <section className="bg-gradient-to-r from-[#05294a] from-40% to-[#05192e] py-16 px-[.85rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0">
-            <div className="w-full lg:max-w-[82rem] mx-auto flex flex-col gap-10">
+        <section className="bg-gradient-to-r from-[#05294a] from-40% to-[#05192e] py-[3.5rem] md:py-[5rem] lg:py-[6rem] px-[.85rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0">
+            <div className="w-full lg:max-w-[82rem] mx-auto flex flex-col gap-4 md:gap-6 lg:gap-10">
                 {/* Experience Title */}
                 <div className='flex flex-col lg:gap-2'>
                     <span
@@ -50,9 +50,10 @@ const Experience = () => {
                     {experiences.map((exp, index) => (
                         <div
                             key={index}
+                            data-aos="fade-up" data-aos-duration="1200" data-aos-delay={index * 100}
                             className="bg-experiences p-6 rounded-lg flex flex-col md:flex-row items-start"
                         >
-                            <div className="bg-blue-500 text-white px-5 py-4 lg:py-5 rounded-lg md:w-1/3 lg:w-1/4">
+                            <div className="bg-blue-500 text-white px-5 py-4 lg:py-5 rounded-xl md:w-1/3 lg:w-1/4">
                                 <h3 className="font-bold text-[21px] md:text-[22.704px] lg:text-[23.709px] leading-[1.2] mb-4 lg:mb-3">{exp.title}</h3>
                                 <p className="text-sm opacity-80">{exp.company} | {exp.location}</p>
                                 <p className="text-[16px] mt-1 mb-3 lg:mb-2">{exp.duration}</p>
