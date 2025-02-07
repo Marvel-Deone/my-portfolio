@@ -92,8 +92,8 @@ const MyWork = () => {
     };
 
     return (
-        <section className='bg-gradient-to-r from-[#062d4d] from-50% to-[#051a2f] w-full flex flex-col mx-auto py-[6rem] px-[1.5rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0'>
-            <div className='w-full lg:max-w-[82rem] flex flex-col mx-auto gap-10'>
+        <section className='bg-gradient-to-r from-[#062d4d] from-50% to-[#051a2f] w-full flex flex-col mx-auto py-[3.8rem] md:py-[5rem] lg:py-[6rem] px-[.85rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0'>
+            <div className='w-full lg:max-w-[82rem] flex flex-col mx-auto gap-3 md:gap-6 lg:gap-10'>
                 {/* Work title */}
                 <div className='flex flex-col lg:gap-2'>
                     <span
@@ -105,7 +105,7 @@ const MyWork = () => {
                     >
                         MY WORK
                     </span>
-                    <h1 className="mb-6 lg:mb-0 text-[35px] md:text-[40px] font-bold uppercase leading-[2.8rem] md:leading-[3rem]">
+                    <h1 className="mb-6 lg:mb-0 text-[33px] md:text-[40px] font-bold uppercase leading-[2.8rem] md:leading-[3rem]">
                         RECENT PROJECTS
                     </h1>
                 </div>

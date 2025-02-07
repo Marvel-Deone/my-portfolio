@@ -33,7 +33,7 @@ const CustomCursor = () => {
 
   return (
     <div
-      className="cursor-inner"
+      className="hidden md:flex cursor-inner"
       style={{
         position: "absolute", // Using absolute so it scrolls with the document
         top: position.y,

@@ -38,7 +38,7 @@ const MyServices = () => {
     ];
 
     return (
-        <section className="bg-gradient-to-r from-[#07223a] from-50% to-[#040c16] py-[6rem] px-[1.5rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0 overflow-hidden">
+        <section className="bg-gradient-to-r from-[#07223a] from-50% to-[#040c16] py-[3.5rem] md:py-[5rem] lg:py-[6rem] px-[.85rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0 overflow-hidden">
             <div className="w-full lg:max-w-[82rem] mx-auto flex flex-col lg:gap-10">
                 {/* Section Title */}
                 <div className='flex flex-col lg:gap-2'>
@@ -51,17 +51,17 @@ const MyServices = () => {
                     >
                         SERVICES
                     </span>
-                    <h1 className="mb-6 lg:mb-0 text-[35px] md:text-[40px] font-bold uppercase leading-[2.8rem] md:leading-[3rem]">
+                    <h1 className="mb-4 lg:mb-0 text-[33px] md:text-[40px] font-bold uppercase leading-[2.8rem] md:leading-[3rem]">
                         THE DEVELOPMENT <span className='text-[#0788FF]'>SERVICES</span> I OFFER
                     </h1>
                 </div>
 
                 {/* Services Grid */}
-                <div data-aos="fade-left" data-aos-duration="1200" data-aos-delay={100} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div data-aos="fade-left" data-aos-duration="1200" data-aos-delay={100} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-[1.65rem] lg:gap-6">
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className="relative mt-[20px] lg:mt-0  bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform ease duration-300"
+                            className="relative mt-[20px] lg:mt-0 bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform ease duration-300"
                         >
                             {/* Background Image */}
                             <img

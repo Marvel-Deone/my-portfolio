@@ -1,5 +1,6 @@
 'use client'
 
+import Contact from '@/components/Contact';
 import Experience from '@/components/Experience';
 import MyServices from '@/components/MyServices';
 import MyWork from '@/components/MyWork';
@@ -66,10 +67,10 @@ const Home = () => {
           </div>
           <div className='hidden lg:flex gap-[4.2rem]'>
             <ul className="flex items-center space-x-6 relative uppercase transition-all duration-[.4s] ease">
-              <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="" className="relative transition duration-300 font-[500] links-before">Home</a></li>
-              <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="" className="relative transition duration-300 font-[500] links-before">About Me</a></li>
-              <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="" className="relative transition duration-300 font-[500] links-before">Projects</a></li>
-              <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="" className="relative transition duration-300 font-[500] links-before">Services</a></li>
+              <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50"><a href="" className="relative transition duration-300 font-[500] links-before">Home</a></li>
+              <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="" className="relative transition duration-300 font-[500] links-before">About Me</a></li>
+              <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="150"><a href="" className="relative transition duration-300 font-[500] links-before">Projects</a></li>
+              <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="" className="relative transition duration-300 font-[500] links-before">Services</a></li>
             </ul>
 
             <div className='flex items-center' data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
@@ -202,6 +203,7 @@ const Home = () => {
       <MyWork />
       <MyServices />
       <Experience />
+      <Contact />
     </main>
   );
 };
