@@ -29,7 +29,7 @@ const Experience = () => {
     ];
 
     return (
-        <section className="bg-gradient-to-r from-[#05294a] from-40% to-[#05192e] py-[3.5rem] md:py-[5rem] lg:py-[6rem] px-[.85rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0">
+        <section className="bg-gradient-to-r from-[#05294a] from-40% to-[#05192e] py-[3.5rem] md:py-[5rem] lg:py-[6rem] px-[.85rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0 overflow-hidden">
             <div className="w-full lg:max-w-[82rem] mx-auto flex flex-col gap-4 md:gap-6 lg:gap-10">
                 {/* Experience Title */}
                 <div className='flex flex-col lg:gap-2'>
