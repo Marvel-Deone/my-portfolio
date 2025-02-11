@@ -22,16 +22,35 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  /* background: var(--background); */
+  /* background-image: linear-gradient(90deg,#07233b 1.67%,#041d34 39.95%,#04192d 58.24%,#040e18 80.28%,#050c16 101.48%) !important; */
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   min-height: 100%;
+  min-width: 100vw;
+  width: 100% !important;
   height: auto;
   display: grid;
   overflow-x: hidden !important;
 }
+/* 
+.to-\[\#050c16\] {
+  --tw-gradient-to: #050c16 var(--tw-gradient-to-position);
+}
+
+.from-40\% {
+  --tw-gradient-from-position: 40%;
+}
+.from-\[\#041c32\] {
+  --tw-gradient-from: #041c32 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(4 28 50 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+} */
 
 @layer utilities {
   .text-balance {

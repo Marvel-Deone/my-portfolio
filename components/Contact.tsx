@@ -2,12 +2,12 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <section className="bg-gradient-to-r from-[#062239] from-30% to-[#050d17] py-[3.5rem] md:py-[5rem] lg:py-[6rem] px-[.85rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0">
+        <section className="bg-gradient-to-r from-[#062239] from-30% to-[#050d17] py-[3.5rem] md:py-[5rem] lg:py-[6rem] px-[.85rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0 overflow-hidden">
             <div className="bg-[#052442] border border-[#0788ff]/[0.2] w-full lg:max-w-[82rem] mx-auto flex flex-col rounded-[0.375rem]">
                 <div className="flex flex-col md:flex-row px-12 py-10">
                     <div className='md:w-[30%]'></div>
-                    <div data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200" className='md:w-[76%] px-14'>
-                        <h2 className="text-white text-[32px] md:text-[40px] font-[500]">Let's Discuss Your Project</h2>
+                    <div data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200" className='md:w-[76%] md:px-14'>
+                        <h2 className="text-white opacity-90 text-[42px] md:text-[40px] font-[600] md:font-[500] leading-[1.2]">Let's Discuss Your Project</h2>
                         <p className="text-white bg-opacity-85 text-[17px] leading-7 mt-1 max-w-[550px]">
                             Always available for freelancing if the right project comes along.
                             Feel free to contact me.
@@ -54,26 +54,26 @@ const Contact = () => {
                                 <input
                                     type="text"
                                     placeholder="Name *"
-                                    className="bg-[hsla(0,0%,100%,.05)] p-3 rounded-md w-full text-white placeholder-gray-400 border border-[hsla(0,0%,100%,.15)]"
+                                    className="bg-[hsla(0,0%,100%,.05)] p-3 rounded-md w-full text-white placeholder-gray-400 border border-[hsla(0,0%,100%,.15)] outline-none"
                                 />
                                 <input
                                     type="email"
                                     placeholder="Email *"
-                                    className="bg-[hsla(0,0%,100%,.05)] p-3 rounded-md w-full text-white placeholder-gray-400 border border-[hsla(0,0%,100%,.15)]"
+                                    className="bg-[hsla(0,0%,100%,.05)] p-3 rounded-md w-full text-white placeholder-gray-400 border border-[hsla(0,0%,100%,.15)] outline-none"
                                 />
                             </div>
                             <input
                                 type="text"
                                 placeholder="Subject *"
-                                className="bg-[hsla(0,0%,100%,.05)] p-3 rounded-md w-full text-white placeholder-gray-400 border border-[hsla(0,0%,100%,.15)] mt-10"
+                                className="bg-[hsla(0,0%,100%,.05)] p-3 rounded-md w-full text-white placeholder-gray-400 border border-[hsla(0,0%,100%,.15)] mt-10 outline-none"
                             />
                             <textarea
                                 placeholder="Your message *"
-                                className="bg-[hsla(0,0%,100%,.05)] p-3 rounded-md w-full h-32 text-white placeholder-gray-400 border border-[hsla(0,0%,100%,.15)] mt-10"
+                                className="bg-[hsla(0,0%,100%,.05)] p-3 rounded-md w-full h-32 text-white placeholder-gray-400 border border-[hsla(0,0%,100%,.15)] mt-10 outline-none"
                             ></textarea>
                             <button
                                 type="submit"
-                                className="mt-6 w-full  py-3 bg-blue-500  rounded-full border-[2px] border-blue-500 hover:bg-black hover:border-white transition-all duration-[.35s] ease-linear text-lg font-semibold"
+                                className="mt-6 w-full  py-3 bg-blue-500  rounded-full border-[2px] border-blue-500 hover:bg-black hover:border-white transition-all duration-[.35s] ease-linear text-lg font-semibold outline-none"
                             >
                                 SEND MESSAGE
                             </button>
