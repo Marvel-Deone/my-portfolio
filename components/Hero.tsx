@@ -53,7 +53,7 @@ const Hero = () => {
 
     return (
         <section className='w-full bg-gradient-to-r from-[#041c32] from-40% to-[#050c16]'>
-            <div className='w-full h-full lg:max-w-[82rem] flex flex-col mx-auto mb-2 px-[1.5rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0'>
+            <div className='w-full h-full lg:max-w-[82rem] flex flex-col mx-auto mb-2 px-[.85rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0'>
                 <div className='flex flex-col lg:flex-row xl:gap-[3.8rem] mt-16 lg:mt-36 xl:mt-[3.8rem]'>
                     {/* Text Content */}
                     <div className='flex flex-col lg:items-start 2xl:space-y-6 tracking-wide transform mt-[4rem] xl:mt-[10rem] 2xl:mt-[11rem]'>
