@@ -3,28 +3,28 @@ import React from 'react'
 const Experience = () => {
     const experiences = [
         {
-            title: "Front-end Developer",
-            company: "WELAB",
+            title: "Fullstack Developer",
+            company: "BELLFAST SERVICE LIMITED",
             location: "REMOTE",
-            duration: "JAN 2019 - PRESENT",
+            duration: "APRIL 2024 - PRESENT",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Ut enim ad minim quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+                "Bellfast is a company committed to empowering businesses and individuals by bridging the gap between service demand and supply. It connects customers with verified service providers for easy booking, real-time tracking, and secure transactions. With features like live chat, booking history, and seamless service management, we ensure a hassle-free experience.",
         },
         {
             title: "Front-end Developer",
-            company: "WELAB",
+            company: "DIGIT INFORMATION AND SOFTWARE TECHNOLOGIES",
             location: "REMOTE",
-            duration: "JAN 2019 - PRESENT",
+            duration: "MARCH 2020 - 2024",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Ut enim ad minim quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+                "Digit is an Information Technology company that provides digital solutions to basic human processes and business activities. We specialise in software development, digital management solutions, custom app development, etc..  Digit house innovative and creative development team that helps in developing and customizing products as required by the customer for optimal satisfaction.",
         },
         {
-            title: "Front-end Developer",
-            company: "WELAB",
-            location: "REMOTE",
-            duration: "JAN 2019 - PRESENT",
+            title: "Software Developer Intern",
+            company: "SQI COLLEGE OF ICT",
+            location: "NIGERIA",
+            duration: "FEB 2022 - AUGUST 2023",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Ut enim ad minim quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+                "SQI College of ICT is a Registered Training Institution, delivering nationally accredited training and hands-on education in the area of the Software Architecture, Robotics Engineering, and 3D Animation & VFX..",
         },
     ];
 
