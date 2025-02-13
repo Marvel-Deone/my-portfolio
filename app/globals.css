@@ -63,6 +63,15 @@ body {
  before:w-0 before:h-[2px] before:bg-white transition duration-[0.2s] ease-linear
 }
 
+.active {
+  @apply before:absolute before:content-[''] before:bottom-[-3px] before:left-0
+ before:w-0 before:h-[2px] before:bg-white transition duration-[0.5s] ease-in-out
+}
+
+.active::before {
+  @apply w-full;
+}
+
 .links-before:hover::before {
   @apply w-full
 }

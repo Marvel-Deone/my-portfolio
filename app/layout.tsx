@@ -38,7 +38,7 @@ export default function RootLayout({
         <script src="/script.js"></script>
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-r from-[#041c32] from-40% to-[#050c16]`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-r from-[#041c32] from-40% to-[#050c16] p-0`}
       >
         {children}
         <CustomCursor />

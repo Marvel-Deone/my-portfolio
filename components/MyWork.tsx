@@ -41,10 +41,14 @@ const projects = [
     },
 ];
 
+type SectionProps = {
+    id?: string;
+  };
+
 const projectsPerPage = 3;
 const totalPages = Math.ceil(projects.length / projectsPerPage);
 
-const MyWork = () => {
+const MyWork: React.FC<SectionProps> = ({ id }) => {
     const [hoveredId, setHoveredId] = useState<number | null>(null);
     const [isOpen, setIsOpen] = useState(false);
     const [previewImg, setPreviewImg] = useState('');
@@ -92,7 +96,7 @@ const MyWork = () => {
     };
 
     return (
-        <section className='bg-gradient-to-r from-[#062d4d] from-50% to-[#051a2f] w-full flex flex-col mx-auto py-[3.8rem] md:py-[5rem] lg:py-[6rem] px-[.85rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0'>
+        <section id={id} className='bg-gradient-to-r from-[#062d4d] from-50% to-[#051a2f] w-full flex flex-col mx-auto py-[3.8rem] md:py-[5rem] lg:py-[6rem] px-[.85rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0'>
             <div className='w-full lg:max-w-[82rem] flex flex-col mx-auto gap-3 md:gap-6 lg:gap-10'>
                 {/* Work title */}
                 <div className='flex flex-col lg:gap-2'>

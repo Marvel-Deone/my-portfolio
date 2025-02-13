@@ -26,7 +26,7 @@ const Header = () => {
                         </div>
                     </div>
                     {/* Menu Icon */}
-                    <div className='px-40'>
+                    <div className=''>
                         {!open ? <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" className="lg:hidden bg-transparent border border-[#373d45] py-2 px-4 rounded-md cursor-pointer absolute right-[15px] top-[19px]" onClick={() => setOpen(true)}>
                             <i className="fa-solid fa-bars text-[20px]"></i>
                         </div> : <div className="lg:hidden bg-transparent border border-[#373d45] py-2 px-4 rounded-md cursor-pointer absolute right-[15px] top-[19px]" onClick={() => setOpen(false)}>

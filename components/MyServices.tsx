@@ -1,20 +1,24 @@
 import React from 'react'
 import { FaPen, FaCode, FaBullhorn, FaPalette, FaStar } from "react-icons/fa";
 
-const MyServices = () => {
+type SectionProps = {
+    id?: string;
+  };
+
+const MyServices: React.FC<SectionProps> = ({ id }) => {
     const services = [
-        {
-            title: "Website Design",
-            description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-            icon: <FaPen className="text-white" />,
-            image: "/images/service-01.jpg",
-            rating: 5,
-        },
+        // {
+        //     title: "Website Design",
+        //     description:
+        //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+        //     icon: <FaPen className="text-white" />,
+        //     image: "/images/service-01.jpg",
+        //     rating: 5,
+        // },
         {
             title: "Website Development",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                "I create fast, responsive, and user-friendly websites tailored to your needs.",
             icon: <FaCode className="text-white" />,
             image: "/images/service-02.jpg",
             rating: 4.5,
@@ -22,7 +26,7 @@ const MyServices = () => {
         {
             title: "Mobile Development",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                "I build cross-platform mobile apps with smooth performance and great usability.",
             icon: <FaBullhorn className="text-white" />,
             image: "/images/service-03.jpg",
             rating: 4,
@@ -30,7 +34,7 @@ const MyServices = () => {
         {
             title: "Backend Development",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                "I develop secure and scalable backend systems for seamless data processing.",
             icon: <FaPalette className="text-white" />,
             image: "/images/service-04.jpg",
             rating: 5,
@@ -38,7 +42,7 @@ const MyServices = () => {
     ];
 
     return (
-        <section className="bg-gradient-to-r from-[#07223a] from-50% to-[#040c16] py-[3.5rem] md:py-[5rem] lg:py-[6rem] px-[.85rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0 overflow-hidden">
+        <section id={id} className="bg-gradient-to-r from-[#07223a] from-50% to-[#040c16] py-[3.5rem] md:py-[5rem] lg:py-[6rem] px-[.85rem] md:px-[2.1rem] lg:px-[4rem] 2xl:px-0 overflow-hidden">
             <div className="w-full lg:max-w-[82rem] mx-auto flex flex-col lg:gap-10">
                 {/* Section Title */}
                 <div className='flex flex-col lg:gap-2'>
@@ -57,7 +61,7 @@ const MyServices = () => {
                 </div>
 
                 {/* Services Grid */}
-                <div data-aos="fade-left" data-aos-duration="1200" data-aos-delay={100} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-[1.65rem] lg:gap-6">
+                <div data-aos="fade-left" data-aos-duration="1200" data-aos-delay={100} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-[1.65rem] lg:gap-6">
                     {services.map((service, index) => (
                         <div
                             key={index}
