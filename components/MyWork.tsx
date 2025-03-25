@@ -5,22 +5,29 @@ import React, { useState, useRef } from 'react';
 const projects = [
     {
         id: 1,
-        title: "Website Design",
-        category: "Web Design, App Design",
+        title: "Apple Website",
+        category: "React | TailwindCSS | Three.js | GSAP",
+        image: "/images/apple_website_iPhone_15pro.png",
+        link: "https://apple-website-clone-olive.vercel.app"
+    },
+    {
+        id: 2,
+        title: "Meal Recipe Fineder",
+        category: "JavaScript | CSS | HTML",
         image: "/images/meal_finder.png",
         link: "https://cozy-tulumba-83e02a.netlify.app"
     },
     {
-        id: 2,
+        id: 3,
         title: "Website Design",
-        category: "Web Design, App Design",
+        category: "JavaScript | CSS | HTML",
         image: "/images/image_editor.png",
         link: "https://imageeditor-556c7.web.app"
     },
     {
-        id: 3,
+        id: 4,
         title: "Dashboard Design",
-        category: "Web Design, App Design",
+        category: "JavaScript | CSS | HTML",
         image: "/images/tic_tac_toe.png",
         link: "https://tic-tact-toe-game-two.vercel.app"
     },
