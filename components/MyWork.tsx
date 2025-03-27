@@ -5,40 +5,53 @@ import React, { useState, useRef } from 'react';
 const projects = [
     {
         id: 1,
-        title: "Website Design",
-        category: "Web Design, App Design",
-        image: "/images/popup-project-1.jpg",
+        title: "Apple Website",
+        category: "React | TailwindCSS | Three.js | GSAP",
+        image: "/images/apple_website_iPhone_15pro.png",
+        link: "https://apple-website-clone-olive.vercel.app"
     },
     {
         id: 2,
-        title: "Website Design",
-        category: "Web Design, App Design",
-        image: "/images/popup-project-2.jpg",
+        title: "Meal Recipe Fineder",
+        category: "JavaScript | CSS | HTML",
+        image: "/images/meal_finder.png",
+        link: "https://cozy-tulumba-83e02a.netlify.app"
     },
     {
         id: 3,
-        title: "Dashboard Design",
-        category: "Web Design, App Design",
-        image: "/images/popup-project-3.jpg",
+        title: "Website Design",
+        category: "JavaScript | CSS | HTML",
+        image: "/images/image_editor.png",
+        link: "https://imageeditor-556c7.web.app"
     },
     {
         id: 4,
-        title: "Mobile App Design",
-        category: "Web Design, App Design",
-        image: "/images/popup-project-4.jpg",
+        title: "Dashboard Design",
+        category: "JavaScript | CSS | HTML",
+        image: "/images/tic_tac_toe.png",
+        link: "https://tic-tact-toe-game-two.vercel.app"
     },
-    {
-        id: 5,
-        title: "Website Design",
-        category: "Web Design, App Design",
-        image: "/images/popup-project-5.jpg",
-    },
-    {
-        id: 6,
-        title: "Website Design",
-        category: "Web Design, App Design",
-        image: "/images/popup-project-6.jpg",
-    },
+    // {
+    //     id: 4,
+    //     title: "Mobile App Design",
+    //     category: "Web Design, App Design",
+    //     image: "/images/popup-project-4.jpg",
+    // link: ""
+    // },
+    // {
+    //     id: 5,
+    //     title: "Website Design",
+    //     category: "Web Design, App Design",
+    //     image: "/images/popup-project-5.jpg",
+    // link: ""
+    // },
+    // {
+    //     id: 6,
+    //     title: "Website Design",
+    //     category: "Web Design, App Design",
+    //     image: "/images/popup-project-6.jpg",
+    // link: ""
+    // },
 ];
 
 type SectionProps = {
@@ -144,7 +157,7 @@ const MyWork: React.FC<SectionProps> = ({ id }) => {
                             <div className="px-2">
                                 <h3 className="mt-4 text-[20px] font-semibold text-black">{project.title}</h3>
                                 <p className="text-gray-500 text-sm mt-1">{project.category}</p>
-                                <div className="absolute bottom-4 right-4 bg-blue-500 border-2 border-black text-white flex justify-center rounded-full h-[45px] w-[45px] items-center text-[20px] cursor-pointer hover:bg-black transition-all duration-[.35s] ease-linear"><Link href="">➜</Link></div>
+                                <div className="absolute bottom-4 right-4 bg-blue-500 border-2 border-black text-white flex justify-center rounded-full h-[45px] w-[45px] items-center text-[20px] cursor-pointer hover:bg-black transition-all duration-[.35s] ease-linear"><Link href={project.link} target='_blank'>➜</Link></div>
                             </div>
                         </div>
                     ))}
