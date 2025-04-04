@@ -36,13 +36,16 @@ const Header = () => {
                 </nav>
             </header>
             {/* Mobile Nav */}
-            {open && <nav className='lg:hidden z-[1000] fixed top-[%] bg-[#040c16] border-t border-[hsla(0,0%,100%,.2)] transform translate-y-[0px] w-full h-auto backdrop-boxShadow'>
-                <div className='absolute bg-[#040c16] w-full py-[10px] px-[20px]'>
-                    <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">Home</a>
-                    <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">About Me</a>
-                    <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">Projects</a>
-                    <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">Service</a>
-                    <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">Contact</a>
+            {open && <nav className='lg:hidden z-[1000] fixed top-[%] bg-[#040c16] border-t border-[hsla(0,0%,100%,.2)] transform translate-y-[0px] w-full h-auto backdrop-boxShadow' onClick={() => setOpen(false)}>
+                <div>
+                    <div className='font-bold' onClick={() => setOpen(false)}>X</div>
+                    <div className='absolute bg-[#040c16] w-full py-[10px] px-[20px]'>
+                        <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">ccd</a>
+                        <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">About Me</a>
+                        <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">Projects</a>
+                        <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">Service</a>
+                        <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">Contact</a>
+                    </div>
                 </div>
             </nav>}
         </section>

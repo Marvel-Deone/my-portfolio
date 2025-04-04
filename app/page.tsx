@@ -69,7 +69,7 @@ const Home = () => {
         </nav>
       </header>
       {/* Mobile Nav */}
-      {open && <nav className='lg:hidden z-[1000] fixed top-[%] bg-[#040c16] border-t border-[hsla(0,0%,100%,.2)] transform translate-y-[0px] w-full h-auto backdrop-boxShadow'>
+      {open && <nav className='lg:hidden z-[1000] fixed top-[%] bg-[#040c16] border-t border-[hsla(0,0%,100%,.2)] transform translate-y-[0px] w-full h-auto backdrop-boxShadow mt-[5rem]' onClick={() => setOpen(false)}>
         <div className='absolute bg-[#040c16] w-full py-[10px] px-[20px]'>
           <a href="#home" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before uppercase">Home</a>
           <a href="#about-me" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before uppercase">About Me</a>
