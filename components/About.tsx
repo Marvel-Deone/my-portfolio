@@ -19,8 +19,8 @@ const About: React.FC<SectionProps> = ({ id }) => {
                     <div className='w-full flex flex-col lg:flex-row gap-12 lg:items-center lg:justify-center px-3 md:px-0 py-[5rem] lg:py-[6rem]'>
                         {/* About Banner */}
                         <div data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500" className='w-full lg:w-1/2 2xl:pl-32'>
-                            <div className='flex items-center justify-center'>
-                                <Image src="/images/about-banner.png" alt='about-banner' width={526} height={340} />
+                            <div className='flex items-center justify-center h-[340px] lg:h-[450px] xl:w-[450px] bg-[#1e364b] rounded-[20px] overflow-hidden'>
+                                <Image src="/images/about-bg.webp" alt='about-banner' width={450} height={450} />
                             </div>
                         </div>
                         {/* About Text */}
