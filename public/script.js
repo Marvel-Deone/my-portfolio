@@ -17,4 +17,4 @@ document.addEventListener("DOMContentLoaded", () => {
 window.addEventListener("scroll", function () {
     var nav = document.querySelector(".my-nav");
     nav.classList.toggle("sticky", window.scrollY > 0);
-})
+});

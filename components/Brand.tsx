@@ -9,7 +9,7 @@ const Brand = () => {
                     <Image src="/images/brand-1.svg" alt='Hello' width={270} height={400} className='w-[180px] md:w-[270px] xl:h-[57px] 2xl:h-[82px]' />
                     <Image src="/images/brand-2.svg" alt='Hello' width={270} height={400} className='w-[180px] md:w-[270px] xl:h-[55px]' />
                     <Image src="/images/brand-3.svg" alt='Hello' width={300} height={400} className='hidden md:flex xl:h-[57] 2xl:h-[82px]' />
-                </div>
+                </div>  
             </div>
         </section>
     )
