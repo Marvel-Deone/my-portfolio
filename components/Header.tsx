@@ -40,7 +40,7 @@ const Header = () => {
                 <div>
                     <div className='font-bold' onClick={() => setOpen(false)}>X</div>
                     <div className='absolute bg-[#040c16] w-full py-[10px] px-[20px]'>
-                        <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">ccd</a>
+                        <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">Home</a>
                         <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">About Me</a>
                         <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">Projects</a>
                         <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">Service</a>
