@@ -6,7 +6,7 @@ const Experience = () => {
             title: "Fullstack Developer",
             company: "BELLFAST SERVICE LIMITED",
             location: "REMOTE",
-            duration: "APRIL 2024 - PRESENT",
+            duration: "APRIL 2023 - MAY 2025",
             description:
                 "Bellfast is a company committed to empowering businesses and individuals by bridging the gap between service demand and supply. It connects customers with verified service providers for easy booking, real-time tracking, and secure transactions. With features like live chat, booking history, and seamless service management, we ensure a hassle-free experience.",
         },
