@@ -12,39 +12,46 @@ const projects = [
   },
   {
     id: 2,
+    title: "Timely Meet",
+    category: "Next | TypeScript | TailwindCSS | Clerk | Shadcn UI",
+    image: "/images/timely_meet.png",
+    link: "https://timely-meet.vercel.app/"
+  },
+  {
+    id: 3,
     title: "Travel Companion",
     category: "React | Vite | TailwindCSS | Material UI | React Google Maps",
     image: "/images/travel-companion.png",
     link: "https://travel-companion-eq97.vercel.app/"
   },
   {
-    id: 3,
+    id: 4,
     title: "Ikea Website",
-    category: "Next | Taailwind | GSAP",
+    category: "Next | TailwindCSS | GSAP",
     image: "/images/ikea_website.png",
     link: "https://ikea-clone-six.vercel.app/"
   },
   {
-    id: 4,
+    id: 5,
     title: "Meal Recipe Fineder",
     category: "JavaScript | CSS | HTML",
     image: "/images/meal_finder.png",
     link: "https://cozy-tulumba-83e02a.netlify.app"
   },
   {
-    id: 5,
+    id: 6,
     title: "Image Editor",
     category: "JavaScript | CSS | HTML",
     image: "/images/image_editor.png",
     link: "https://imageeditor-556c7.web.app"
   },
-  {
-    id: 6,
-    title: "Tic Tac Toe",
-    category: "JavaScript | CSS | HTML",
-    image: "/images/tic_tac_toe.png",
-    link: "https://tic-tact-toe-game-two.vercel.app"
-  },
+  // {
+  //   id: 6,
+  //   title: "Tic Tac Toe",
+  //   category: "JavaScript | CSS | HTML",
+  //   image: "/images/tic_tac_toe.png",
+  //   link: "https://tic-tact-toe-game-two.vercel.app"
+  // },
 ];
 
 type SectionProps = {
