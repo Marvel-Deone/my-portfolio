@@ -12,34 +12,41 @@ const projects = [
   },
   {
     id: 2,
-    title: "Timely Meet",
+    title: "DevMetrics",
+    category: "Next | TypeScript | TailwindCSS | Github | Shadcn UI",
+    image: "/images/dev_metrics.png",
+    link: "https://dev-metrics-wine.vercel.app/"
+  },
+  {
+    id: 3,
+    title: "TimelyMeet",
     category: "Next | TypeScript | TailwindCSS | Clerk | Shadcn UI",
     image: "/images/timely_meet.png",
     link: "https://timely-meet.vercel.app/"
   },
   {
-    id: 3,
+    id: 4,
     title: "Travel Companion",
     category: "React | Vite | TailwindCSS | Material UI | React Google Maps",
     image: "/images/travel-companion.png",
     link: "https://travel-companion-eq97.vercel.app/"
   },
   {
-    id: 4,
+    id: 5,
     title: "Ikea Website",
     category: "Next | TailwindCSS | GSAP",
     image: "/images/ikea_website.png",
     link: "https://ikea-clone-six.vercel.app/"
   },
   {
-    id: 5,
+    id: 6,
     title: "Meal Recipe Fineder",
     category: "JavaScript | CSS | HTML",
     image: "/images/meal_finder.png",
     link: "https://cozy-tulumba-83e02a.netlify.app"
   },
   {
-    id: 6,
+    id: 7,
     title: "Image Editor",
     category: "JavaScript | CSS | HTML",
     image: "/images/image_editor.png",
