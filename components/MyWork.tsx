@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     title: "DevMetrics",
     category: "Next | TypeScript | TailwindCSS | Github | Shadcn UI",
-    image: "/images/dev_metrics.png",
+    image: "/images/dev_metrics_v2.png",
     link: "https://dev-metrics-wine.vercel.app/"
   },
   {
