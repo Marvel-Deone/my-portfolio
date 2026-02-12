@@ -5,17 +5,17 @@ import React, { useState, useRef } from 'react';
 const projects = [
   {
     id: 1,
-    title: "Apple Website",
-    category: "React | TailwindCSS | Three.js | GSAP",
-    image: "/images/apple_website_iPhone_15pro.png",
-    link: "https://my-portfolio-store.vercel.app"
-  },
-  {
-    id: 2,
     title: "DevMetrics",
     category: "Next | TypeScript | TailwindCSS | Github | Shadcn UI",
     image: "/images/dev_metrics_v2.png",
     link: "https://dev-metrics-wine.vercel.app/"
+  },
+  {
+    id: 2,
+    title: "Apple Website",
+    category: "React | TailwindCSS | Three.js | GSAP",
+    image: "/images/apple_website_iPhone_15pro.png",
+    link: "https://my-portfolio-store.vercel.app"
   },
   {
     id: 3,
@@ -26,32 +26,46 @@ const projects = [
   },
   {
     id: 4,
+    title: "DDComply",
+    category: "Next | TypeScript | TailwindCSS",
+    image: "/images/dd-comply.png",
+    link: "https://dd-comply-eight.vercel.app/"
+  },
+  {
+    id: 5,
     title: "Travel Companion",
     category: "React | Vite | TailwindCSS | Material UI | React Google Maps",
     image: "/images/travel-companion.png",
     link: "https://travel-companion-eq97.vercel.app/"
   },
   {
-    id: 5,
+    id: 6,
+    title: "Daily Hustle",
+    category: "Next | TypeScript | TailwindCSS | Framer Motion | Embla-Carousel",
+    image: "/images/daily-hustle.png",
+    link: "https://daily-hustle-eosin.vercel.app/"
+  },
+  {
+    id: 7,
     title: "Ikea Website",
     category: "Next | TailwindCSS | GSAP",
     image: "/images/ikea_website.png",
     link: "https://ikea-clone-six.vercel.app/"
   },
   {
-    id: 6,
+    id: 8,
     title: "Meal Recipe Fineder",
     category: "JavaScript | CSS | HTML",
     image: "/images/meal_finder.png",
     link: "https://cozy-tulumba-83e02a.netlify.app"
   },
-  {
-    id: 7,
-    title: "Image Editor",
-    category: "JavaScript | CSS | HTML",
-    image: "/images/image_editor.png",
-    link: "https://imageeditor-556c7.web.app"
-  },
+  // {
+  //   id: 9,
+  //   title: "Image Editor",
+  //   category: "JavaScript | CSS | HTML",
+  //   image: "/images/image_editor.png",
+  //   link: "https://imageeditor-556c7.web.app"
+  // },
   // {
   //   id: 6,
   //   title: "Tic Tac Toe",
