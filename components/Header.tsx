@@ -17,6 +17,7 @@ const Header = () => {
                             <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="" className="relative transition duration-300 font-[500] links-before">About Me</a></li>
                             <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="150"><a href="" className="relative transition duration-300 font-[500] links-before">Projects</a></li>
                             <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="" className="relative transition duration-300 font-[500] links-before">Services</a></li>
+                            <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="/devcoder" className="relative transition duration-300 font-[500] links-before">DEVCODER</a></li>
                         </ul>
 
                         <div className='flex items-center' data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
@@ -45,6 +46,7 @@ const Header = () => {
                         <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">Projects</a>
                         <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">Service</a>
                         <a href="" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">Contact</a>
+                        <a href="/devcoder" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before">DEVCODER</a>
                     </div>
                 </div>
             </nav>}

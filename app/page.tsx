@@ -50,6 +50,7 @@ const Home = () => {
               <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="150"><a href="#projects" className={activeSection === 'projects' ? 'active relative transition duration-300 font-[500]' : 'relative transition duration-300 font-[500] links-before'}>Projects</a></li>
               <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#services" className={activeSection === 'services' ? 'active relative transition duration-300 font-[500]' : 'relative transition duration-300 font-[500] links-before'}>Services</a></li>
               <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#contact" className={activeSection === 'contact' ? 'active relative transition duration-300 font-[500]' : 'relative transition duration-300 font-[500] links-before'}>Contact</a></li>
+              <li className="hover:text-white cursor-pointer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="/devcoder" className={activeSection === '/devcoder' ? 'active relative transition duration-300 font-[500]' : 'relative transition duration-300 font-[500] links-before'}>DEVCODER</a></li>
             </ul>
 
             <div className='flex items-center' data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
@@ -76,6 +77,7 @@ const Home = () => {
           <a href="#projects" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before uppercase">Projects</a>
           <a href="#services" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before uppercase">Service</a>
           <a href="#contact" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before uppercase">Contact</a>
+          <a href="/devcoder" className="flex text-white py-[15px] px-0 items-center transition-all duration-[0.2s] ease-linear links-before uppercase">DEVCODER</a>
         </div>
       </nav>}
 
