@@ -111,11 +111,11 @@ const Hero: React.FC<SectionProps> = ({ id }) => {
           <div className="flex justify-center items-center pr-7 md:px-0 xl:mt-[3rem] 2xl:mt-[4rem]" data-aos="fade-in" data-aos-duration="3000" data-aos-delay="800">
             <div className="md:w-[590px] md:h-[580px] lg:w-[400px] lg:h-[400px] xl:w-[470px] xl:h-[470px] 2xl:w-[490px] 2xl:h-[475px] image-container mt-16 lg:mt-0 xl:mt-12 ml-8 rounded-full overflow-hidden box-shadow ">
               <Image
-                src="/images/Fola.jpeg"
+                src="/images/my-pic.png"
                 alt="Folagbade Olowofela"
                 width={518}
                 height={500}
-                className="w-auto h-auto md:w-[590px] md:h-[580px] lg:w-auto lg:h-auto xl:h-[470px] 2xl:w-[590px] 2xl:h-[575px] rounded-full shadow-lg"
+                className="w-auto h-auto md:w-[590px] md:h-[580px] lg:w-auto lg:h-auto xl:h-[470px] 2xl:w-[590px] 2xl:h-[475px] rounded-full shadow-lg"
               />
             </div>
           </div>
