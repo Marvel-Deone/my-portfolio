@@ -92,7 +92,6 @@ body {
   width: 12px;
   height: 12px;
   background: rgb(174, 160, 160);
-  /* transform: "translate(-50%, -50%)"; */
   transition: all .8s ease-out;
   position: absolute;
 }
