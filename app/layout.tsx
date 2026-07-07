@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import CustomCursor from "@/components/CustomCursor";
+// import CustomCursor from "@/components/CustomCursor";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -41,7 +41,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-r from-[#041c32] from-40% to-[#050c16] p-0`}
       >
         {children}
-        <CustomCursor />
+        {/* <CustomCursor /> */}
        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
           AOS.init();

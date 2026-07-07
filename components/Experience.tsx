@@ -3,10 +3,10 @@ import React from 'react'
 const Experience = () => {
     const experiences = [
         {
-            title: "Fullstack Developer",
+            title: "Engineering Lead",
             company: "BELLFAST SERVICE LIMITED",
             location: "REMOTE",
-            duration: "APRIL 2023 - MAY 2025",
+            duration: "APRIL 2023 - PRESENT",
             description:
                 "Bellfast is a company committed to empowering businesses and individuals by bridging the gap between service demand and supply. It connects customers with verified service providers for easy booking, real-time tracking, and secure transactions. With features like live chat, booking history, and seamless service management, we ensure a hassle-free experience.",
         },
@@ -14,7 +14,7 @@ const Experience = () => {
             title: "Front-end Developer",
             company: "DIGIT INFORMATION AND SOFTWARE TECHNOLOGIES",
             location: "REMOTE",
-            duration: "MARCH 2020 - 2024",
+            duration: "MARCH 2022 - 2023",
             description:
                 "Digit is an Information Technology company that provides digital solutions to basic human processes and business activities. We specialise in software development, digital management solutions, custom app development, etc..  Digit house innovative and creative development team that helps in developing and customizing products as required by the customer for optimal satisfaction.",
         },
